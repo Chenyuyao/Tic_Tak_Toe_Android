@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true" >
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="3" >
+
+        <Button
+            android:id="@+id/button0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button7"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button8"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="fill"
+            android:textSize="20pt" />
+
+    </GridLayout>
+
+</RelativeLayout>
